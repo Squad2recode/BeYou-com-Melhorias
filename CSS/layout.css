@@ -22,7 +22,7 @@ section {
 }
 
 header {
-  height: 100px;
+  height: 8vh;
   width: 100%;
   top: 0;
   left: 0;
@@ -32,11 +32,11 @@ header {
 }
 
 .logo {
-  max-width: 12%;
+  max-width: 6vw;
   float: left;
-  padding-top: 1%;
+  padding-top: 0.4rem;
   padding-bottom: 1.1%;
-  margin-left: -7%;
+  margin-left: -4rem;
 }
 
 .logo:hover {
@@ -71,7 +71,7 @@ nav {
   position: relative;
   cursor: pointer;
   color: #fff;
-  font-size: 0.9em;
+  font-size: 0.7em;
 }
 
 .menu-0 ul li a {
@@ -79,11 +79,8 @@ nav {
   text-decoration: none;
   font-style: bold;
   display: inline-block;
-  transition: background 0.5s ease;
-  padding-top: 35px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  transition: background 0.5s ease;  
+  padding: 0.5vw 0.5rem 1vw 0.5rem;
   font-style: bold;
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -110,9 +107,9 @@ nav {
   background-color: #000;
   color: #fff;
   font-weight: bold;
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }
 
 .menu-0 ul ul {
@@ -129,6 +126,8 @@ nav {
   background-color: rgba(0, 0, 0, 0.555);
   color: #fff;
   display: block;
+  padding: 0.7rem;
+  margin-left: -1em;
 }
 
 #menu-mobile {
@@ -140,10 +139,11 @@ nav {
 }
 
 footer {
-  height: 85px;
+  height: 8vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.247);
   opacity: 0.7;
+  flex-shrink: 1;
   bottom: 0;
 }
 
@@ -155,14 +155,15 @@ footer {
 }
 
 .fim img {
-  width: 4%;
-  margin: 15px;
+  width: 3%;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .fim img:hover {
-  -moz-transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 500px) {

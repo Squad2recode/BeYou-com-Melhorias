@@ -22,6 +22,10 @@ button:hover {
   cursor: pointer;
 }
 
+footer {
+  margin-top: 8%;
+}
+
 .text1 {
   font-size: 15px;
   color: gray;
