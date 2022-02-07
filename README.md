@@ -1,2 +1,2 @@
 <img src="/siteBeYou.png">    
-<a href="https://be-you-projeto-recode-pro.vercel.app/">Visite o Site</a>
+<a href="https://be-you-com-melhorias.vercel.app/">Visite o Site</a>
