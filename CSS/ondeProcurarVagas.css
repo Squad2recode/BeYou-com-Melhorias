@@ -16,6 +16,13 @@ footer {
     margin: 2%;
 }
 
+.card:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
+
 .card img {
     height: 200px;
     border-radius: 0 0 10px 10px;

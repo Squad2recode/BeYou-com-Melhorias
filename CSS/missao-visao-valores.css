@@ -45,3 +45,31 @@ h1 {
     font-weight: bold;
     justify-content: space-around;
 }
+
+.sobre-nos:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
+
+.missao:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
+
+.visao:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
+
+.valores:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
+}
