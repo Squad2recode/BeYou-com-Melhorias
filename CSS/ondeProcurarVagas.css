@@ -45,14 +45,9 @@ footer {
     .card {
         margin-bottom: 20% !important;
     }
-
-    .midias {
-        margin-left: -150vw;
-  
-      }
-
-    .fim img {
-        width:10vw;
+    
+      footer {
+        width: 100%;
       }
 
 }

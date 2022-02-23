@@ -51,16 +51,12 @@
     font-size: 0.6em;
   }
 
-  .fim img {
-    width: 10vw;
+  footer {
+    width: 100%;
   }
 
   header {
     width: 100%;
-  }
-
-  footer {
-    margin-top: 5%;
   }
 
   .midias {

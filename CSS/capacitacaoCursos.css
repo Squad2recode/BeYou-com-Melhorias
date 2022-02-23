@@ -45,17 +45,15 @@ footer {
     
     .fim img {
       width: 8vw;
+      margin-top: 2vh;
     }
 
+    footer {
+      width: 100%;
+    }
     header {
         width: 100%;
-      }
-    
-    .midias {
-      margin-left: -150vw;
-      margin-top: -4%;
-
-    }
+      }    
 }
 
 @media screen and (min-width: 501px) and (max-width: 830px) {
