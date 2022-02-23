@@ -20,3 +20,26 @@ footer {
     transform: scale(1.2);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
 }
+
+@media screen and (max-width: 500px) {
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15vh;
+    }
+
+    .principal img  {
+        width: 60vw;
+        margin-bottom: 15%;
+    }
+
+    .midias {
+        margin-left: -150vw;
+        margin-top: -5%;      
+      }
+  
+    .fim img {
+        width:10vw;
+      }
+  }

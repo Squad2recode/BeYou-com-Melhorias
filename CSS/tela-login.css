@@ -237,3 +237,20 @@ a:hover {
   transform: translateY(-50%);
   left: 0;
 }
+
+@media screen and (max-width: 500px) {
+
+  .container-login {
+    width: 100%;
+    margin-top: 15vh;
+  }
+
+  .midias {
+      margin-left: -150vw;
+      margin-top: -40%;      
+    }
+
+  .fim img {
+      width:10vw;
+    }
+}

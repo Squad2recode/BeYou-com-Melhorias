@@ -23,9 +23,15 @@ footer {
 @media screen and (max-width: 500px) {
 
     .table {
+      width: 100%;
       margin-top: 55%;
       vertical-align: middle;
       font-weight: bold;
+    }
+
+    .overflow {
+      overflow-x: scroll;
+      margin-bottom: 40%;
     }
 
     .table tbody {

@@ -24,14 +24,22 @@ footer {
 @media screen and (max-width: 500px) {
 
     .table {
-      margin-top: 20vh;
+      margin-top: 15vh;
       margin-bottom: 20vh;
       vertical-align: middle;
       z-index: 2;
     }
 
+    .overflow {
+      overflow-x: scroll;
+    }
+
     .table th {
         vertical-align: middle;
+    }
+
+    .midias {
+      margin-top: -5%;  
     }
     
     .fim img {

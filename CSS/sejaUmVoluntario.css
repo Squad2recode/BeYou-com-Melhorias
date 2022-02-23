@@ -46,8 +46,19 @@ input[type=text], input[type=file], select, textarea {
 
     @media screen and (max-width: 500px) {
         #descricao {
+            width: 100%;
             margin-top: 20vh;
         }
+
+        .dados {
+            width: 100%;
+        }
+
+        .midias {
+            margin-left: -150vw;
+            margin-top: -5%;
+      
+          }
 
         .fim img {
             width:10vw;

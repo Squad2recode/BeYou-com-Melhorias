@@ -1,11 +1,15 @@
 .descricao {
   margin-top: 9%;
-  width: 50%;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2%;
   background-color: rgba(251, 251, 251, 0.746);
   padding: 0.5rem;
+}
+
+.dados {
+  width: 70vw !important;
 }
 
 h2 {
@@ -55,8 +59,13 @@ input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 500px) {
-  #descricao {
-    margin-top: 20vh;
+  .descricao {
+    margin-top: 15vh;
+  }
+
+  .midias {
+    margin-left: -150vw;
+    margin-top: -5%;  
   }
 
   .fim img {

@@ -118,6 +118,17 @@ div, h2, p, figure {
   margin-top: 10px;
 }
 
+@media screen and (max-width: 500px) {
+  #primeira {
+    margin-top: 10vh;
+  }
+
+  .midias {
+    margin-left: -150vw;
+    margin-top: -40%;  
+  }
+}
+
 @media screen and (min-width: 800px) {
   .columns,
   .column {

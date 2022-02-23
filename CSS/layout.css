@@ -77,7 +77,6 @@ nav {
 .menu-0 ul li a {
   color: #fff;
   text-decoration: none;
-  font-style: bold;
   display: inline-block;
   transition: background 0.5s ease;  
   padding: 0.5vw 0.5rem 1vw 0.5rem;
@@ -140,7 +139,7 @@ nav {
 
 footer {
   height: 8vh;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.247);
   opacity: 0.7;
   flex-shrink: 1;
@@ -171,10 +170,21 @@ footer {
     display: none;
   }
 
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    width: 60vw;
+    margin-left: 0%;
+  }
+
   #menu-mobile {
     display: block;
     width: 157px;
     height: 100px;
+    margin-top: -4%;
   }
 
   .menu-open {

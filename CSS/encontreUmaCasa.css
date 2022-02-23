@@ -36,7 +36,17 @@ a {
 
 @media screen and (max-width: 500px) {
   .card-group {
+    width: 100%;
     margin-top: 20vh;
+  }
+
+  .card {
+    margin-bottom: 25% !important;
+  }
+
+  .midias {
+    margin-left: -150vw;
+    margin-top: -5%;      
   }
 
   .fim img {

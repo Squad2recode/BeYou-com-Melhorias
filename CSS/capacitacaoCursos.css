@@ -27,6 +27,11 @@ footer {
       font-weight: bold;
     }
 
+    .overflow {
+      overflow-x: scroll;
+      margin-bottom: 35%;
+    }
+
     .table tbody {
         width: auto;
         position: relative;
@@ -46,12 +51,11 @@ footer {
         width: 100%;
       }
     
-    footer {
-        width: 920px;
-        margin-left: -22%;
-        flex-shrink: 0;
-        margin-top: 30%;
-      }
+    .midias {
+      margin-left: -150vw;
+      margin-top: -4%;
+
+    }
 }
 
 @media screen and (min-width: 501px) and (max-width: 830px) {

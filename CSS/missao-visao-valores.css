@@ -73,3 +73,26 @@ h1 {
     transform: scale(1.1);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.664);
 }
+
+@media screen and (max-width: 500px) {
+
+    .mvv {
+        width: 90%;
+        margin-top: 15vh;
+    }
+
+    .mvv article {
+        width: 100%;
+        margin-bottom: 20%;
+        box-shadow: 0 0 2px #000;
+    }
+
+    .midias {
+        margin-left: -150vw;
+        margin-top: -5%;  
+      }
+
+    .fim img {
+        width:10vw;
+      }
+}
